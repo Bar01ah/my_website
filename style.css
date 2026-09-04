@@ -76,9 +76,9 @@ background-color: rgba(31, 26, 25, 0.85);
 }
 
 .nav-container {
-max-width: 1200px;
+max-width: 100%;
 margin: 0 auto;
-padding: 1rem 2rem;
+padding: 1rem 4%;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -145,8 +145,9 @@ display: none;
 3. HERO SECTION (المعدلة بالكامل لتطغى ببراعة)
 ========================================== */
 .hero-section {
-padding: 8rem 2rem 4rem;
-min-height: 90vh;
+padding: 7rem 4% 4rem;
+min-height: 100vh;
+width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -157,12 +158,13 @@ linear-gradient(135deg, var(--soft-beige) 0%, var(--bg-white) 100%);
 
 
 .hero-container {
-max-width: 1200px;
+max-width: 100%;
 width: 100%;
 display: flex;
 align-items: center;
 justify-content: space-between;
 gap: 2rem;
+padding: 0 2rem;
 }
 
 .hero-content {
@@ -315,8 +317,9 @@ transform: translateY(0);
 4. SECTIONS COMMON STYLES
 ========================================== */
 .section {
-padding: 5rem 2rem;
-max-width: 1100px;
+padding: 5rem 4%;
+max-width: 100%;
+width: 100%;
 margin: 0 auto;
 }
 
@@ -610,18 +613,27 @@ display: none;
 border-bottom: 1px solid var(--border-color);
 }
 
+.hero-section{
+  padding: 6rem 1.5rem 3rem;
+  min-height:100vh;
+}
+
+.section{
+  padding: 3.5rem 1.2rem;
+}
+
 .menu-checkbox:checked ~ .nav-links {
 display: flex;
 }
 
 .hero-container {
+padding:0;
 flex-direction: column-reverse;
-
 text-align: center;
 }
 
 .hero-title {
-font-size: 3rem;
+font-size: 2.8rem;
 }
 
 .hero-buttons {
